@@ -490,7 +490,7 @@ def main():
     # Initialize variables
     best_checkpoint_states = []  #List to store the best checkpoint states
 
-    checkpoint_dir = 'JupyterLinks/nobackup/0.25deg/SLURM_One_Checkpoints'  #Directory to save checkpoints
+    checkpoint_dir = '.../YOUR_CHECKPOINT_DIRECTORY'  #Directory to save checkpoints
 
     # Create the checkpoint directory if it doesn't exist
     if not os.path.exists(checkpoint_dir):
